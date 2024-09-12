@@ -32,32 +32,6 @@ modalClose.forEach((mc) => {
   });
 });
 
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
-
-let mixer = mixitup(".work__container", {
-  selectors: {
-    target: ".work__card",
-  },
-  animation: {
-    duration: 300,
-  },
-});
-
-/* Link active work */
-const workLinks = document.querySelectorAll(".work__item");
-
-function activeWork(workLink) {
-  workLinks.forEach((wl) => {
-    wl.classList.remove("active-work");
-  });
-  workLink.classList.add("active-work");
-}
-
-workLinks.forEach((wl) => {
-  wl.addEventListener("click", () => {
-    activeWork(wl);
-  });
-});
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
