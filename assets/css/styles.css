@@ -106,13 +106,13 @@ img {
 }
 
 /*=============== THEME ===============*/
-.change__theme {
+.change-theme {
   font-size: 1.25rem;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.change__theme:hover {
+.change-theme:hover {
   color: var(--first-color);
 }
 
